@@ -1,5 +1,14 @@
 .toolbar{
     border: black;
+    border-style: solid;
     border-width: 1px;
     text-align: center;
+    margin-left: 75vh;
+    margin-right: 75vh;
+    border-radius: 10px;
+}
+
+.toolbar Button{
+    margin: 5px;
+    background-color: rgb(218, 213, 196);
 }
