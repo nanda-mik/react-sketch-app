@@ -20,7 +20,6 @@ function App() {
 
   return (
     <div className="App">
-      <h2>React Sketch App</h2>
       <Toolbar onChoice={onClickHandler} />
       <Whiteboard choice={choice} />
     </div>
