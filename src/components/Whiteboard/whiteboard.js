@@ -1,7 +1,8 @@
 import React from 'react';
 import { SketchField, Tools } from 'react-sketch';
+import "./whiteboard.css";
 
-function whiteboard({ choice }) {
+export default function whiteboard({ choice }) {
 
     return (
         <div className="whiteboard">
@@ -28,5 +29,3 @@ function whiteboard({ choice }) {
         </div>
     );
 }
-
-export default whiteboard;
